@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Pinaki Priya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        Assignment Submission - Pinaki Priya (22BHI10001)
+    </header>
+
+    <div class="container">
+        <h2>Select a Task to View</h2>
+
+        <!-- HTML Tasks -->
+        <h3>HTML Tasks</h3>
+        <button onclick="openTask('task1.html')">Task 1</button>
+        <button onclick="openTask('task2.html')">Task 2</button>
+        <button onclick="openTask('task3.html')">Task 3</button>
+        <button onclick="openTask('task4.html')">Task 4</button>
+        <button onclick="openTask('task5.html')">Task 5</button>
+
+        <!-- CSS Tasks -->
+        <h3>CSS Tasks</h3>
+        <button onclick="openTask('CSStask1.html')">CSS Task 1</button>
+        <button onclick="openTask('CSStask2.html')">CSS Task 2</button>
+        <button onclick="openTask('CSStask3.html')">CSS Task 3</button>
+        <button onclick="openTask('CSStask4.html')">CSS Task 4</button>
+        <button onclick="openTask('CSStask5.html')">CSS Task 5</button>
+        <button onclick="openTask('CSStask6.html')">CSS Task 6</button>
+        <button onclick="openTask('CSStask7.html')">CSS Task 7</button>
+
+        <!-- Bootstrap Tasks -->
+        <h3>Bootstrap Tasks</h3>
+        <button onclick="openTask('BStask1.html')">Bootstrap Task 1</button>
+        <button onclick="openTask('BStask2.html')">Bootstrap Task 2</button>
+        <button onclick="openTask('BStask3.html')">Bootstrap Task 3</button>
+        <button onclick="openTask('BStask4.html')">Bootstrap Task 4</button>
+        <button onclick="openTask('BStask5.html')">Bootstrap Task 5</button>
+        <button onclick="openTask('BStask6.html')">Bootstrap Task 6</button>
+
+        <!-- JavaScript Tasks -->
+        <h3>JavaScript Tasks</h3>
+        <button onclick="openTask('jstask1.html')">JavaScript Task 1</button>
+        <button onclick="openTask('jstask2.html')">JavaScript Task 2</button>
+        <button onclick="openTask('jstask3.html')">JavaScript Task 3</button>
+        <button onclick="openTask('jstask4.html')">JavaScript Task 4</button>
+        <button onclick="openTask('jstask5.html')">JavaScript Task 5</button>
+        <button onclick="openTask('jstask6.html')">JavaScript Task 6</button>
+        <button onclick="openTask('jstask7.html')">JavaScript Task 7</button>
+        <button onclick="openTask('jstask8.html')">JavaScript Task 8</button>
+
+        <!-- Final Task (Register & View) -->
+        <h3>Final Task: User Registration & Display System</h3>
+        <button onclick="openTask('register.html')">Register Page</button>
+        <button onclick="openTask('view.html')">View Users</button>
+        <button onclick="openTask('style.css')">View CSS File</button>
+        <button onclick="openTask('script.js')">View JavaScript File</button>
+
+    </div>
+
+    <script>
+        function openTask(taskUrl) {
+            window.open(taskUrl, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
